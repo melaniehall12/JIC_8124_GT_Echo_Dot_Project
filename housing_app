@@ -1,0 +1,50 @@
+import logging
+
+from random import randint
+
+from flask import Flask, render_template
+
+from flask_ask import Ask, statement, question, session
+
+
+app = Flask(__name__)
+
+ask = Ask(app, "/")
+
+logging.getLogger("flask_ask").setLevel(logging.DEBUG)
+
+
+@ask.launch
+def startup():
+    welcome_msg = "welcome to housing app"
+    return question(welcome_msg)
+
+@ask.intent('YesIntent')
+def yes():
+    return statement("yes")
+
+
+@ask.intent("TurnLightsOnIntent")
+def turn_lights_on():
+    print("Sending command to turn the lights on...")
+    return statement("Turning the lights on")
+
+
+@ask.intent("TurnLightsOffIntent")
+def turn_lights_off():
+    print("Sending command to turn the lights off...")
+    return statement("Turning the lights off")
+
+@ask.intent("TurnHeatUpIntent")
+def turn_heat_up():
+    print("Sending command to turn the heat up...")
+    return statement("Turning the heat up")
+
+@ask.intent("TurnHeatDownIntent")
+def turn_heat_down():
+    print("Sending command to turn the heat down...")
+    return statement("Turning the heat down")
+
+if __name__ == '__main__':
+
+    app.run(debug=True)
