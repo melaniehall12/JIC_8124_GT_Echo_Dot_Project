@@ -1,0 +1,78 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "housing app",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TurnLightsOnIntent",
+                    "slots": [],
+                    "samples": [
+                        "turn the lights on"
+                    ]
+                },
+                {
+                    "name": "TurnLightsOffIntent",
+                    "slots": [],
+                    "samples": [
+                        "turn the lights off"
+                    ]
+                },
+                {
+                    "name": "TurnHeatUpIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Turn the heat up",
+                        "Turn the heat up {number} degrees"
+                    ]
+                },
+                {
+                    "name": "TurnHeatDownIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Turn the heat down",
+                        "Turn heat down {number} degrees"
+                    ]
+                },
+                {
+                    "name": "YesIntent",
+                    "slots": [],
+                    "samples": [
+                        "sure",
+                        "yes"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
