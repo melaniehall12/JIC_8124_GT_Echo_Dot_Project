@@ -19,7 +19,12 @@ Doesn't work.
 
 PRE-REQUISITES
 
+You must have the Metasys Launcher program installed. See https://www.johnsoncontrols.com/buildings/specialty-pages/metasys-launcher. A authorized username and password is also required to open the launcher. You must also have Python downloaded (may have to downgrade cyrptography depending on the system).  
+
 DEPENDENCIES
+
+Download and install Flask-Ask (https://pypi.org/project/Flask-Ask/).
+Download and install ngrok (https://ngrok.com/download)
 
 DOWNLOAD
 
@@ -27,7 +32,11 @@ https://github.com/melaniehall12/JIC_8124_GT_Echo_Dot_Project.git
 
 BUILD
 
+No build is necessary.
+
 INSTALLATION
+
+
 
 RUNNING APPLICATION
 
