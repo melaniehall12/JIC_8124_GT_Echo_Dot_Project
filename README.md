@@ -1,4 +1,4 @@
-# Georgia Tech Echo Dot Integration Project For HVAC and Lighting
+# Georgia Tech Echo Dot Integration Project for HVAC and Lighting
 Junior Design project for CS 3312/LMC 3431 for the client, Malte Weiland. This project focuses on the integration of Amazon's Echo Dot into Georgia Tech dorm rooms.
 
 Team: Melanie Hall, Daniel Mullen, Simola Nayak, Steve Nkuranga, and Sonia Thakur.
