@@ -24,7 +24,8 @@ You must have the Metasys Launcher program installed. See https://www.johnsoncon
 DEPENDENCIES
 
 Download and install Flask-Ask (https://pypi.org/project/Flask-Ask/).
-Download and install ngrok (https://ngrok.com/download)
+
+Download and install ngrok (https://ngrok.com/download).
 
 DOWNLOAD
 
