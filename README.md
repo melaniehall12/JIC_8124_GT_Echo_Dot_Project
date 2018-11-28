@@ -7,9 +7,13 @@ Team: Melanie Hall, Daniel Mullen, Simola Nayak, Steve Nkuranga, and Sonia Thaku
 
 NEW FEATURES
 
+
+
 BUG FIXES
 
 KNOWN BUGS
+
+Doesn't work.
 
 ### Install Guide
 
@@ -19,11 +23,13 @@ DEPENDENCIES
 
 DOWNLOAD
 
+
+
 BUILD
 
 INSTALLATION
 
 RUNNING APPLICATION
 
-TROUBLESHOOTING
+
 
