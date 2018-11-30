@@ -9,7 +9,6 @@ Junior Design project for CS 3312/LMC 3431 for the client, Malte Weiland. This p
 
 
 ## Install Guide
-
 ### Prerequisites
 #### Installing the Alexa Skill
 1. Set Up Echo Dot
@@ -18,6 +17,8 @@ Junior Design project for CS 3312/LMC 3431 for the client, Malte Weiland. This p
 * In the Alexa app, press the collapsed menu button in the upper left hand corner and select "Skills & Games". Search for . Select "Enable".
 3. Link GT Account
 * 
+### Installing the Metasys Launcher
+
 
 Need an Echo Dot/Echo Dot sim. You must have the Metasys Launcher program installed. See https://www.johnsoncontrols.com/buildings/specialty-pages/metasys-launcher. A authorized username and password is also required to open the launcher. You must also have Python downloaded (may have to downgrade cryptography depending on the system).  
 
