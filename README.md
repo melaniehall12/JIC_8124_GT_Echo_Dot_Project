@@ -6,7 +6,7 @@ The Echo Dot is responsible for voice recognition and mapping the recognized spe
 
 Flask-Ask will allow for the extraction of other data that is sent to the web server, such as variables and the UID. The UID is unique for each Echo Dot for a given skill and thus can be used to find the corresponding number of that Echo Dot. This is accomplished by having a map on the web server that takes the UID as its input and outputs the room number. 
 
-We created a GUI-Bot to manually change the fan and light states in the Metasys server. The acquisition of the Metasys Secure System Access disk allows for a user to create an authentication token to access Metasys. Metasys will send the intent from the web server to the GUI-Bot which will then modify the light and fan values in the launcher.    
+A GUI-Bot was created to manually change the fan and light states in the Metasys server. The acquisition of the Metasys Secure System Access disk allows for a user to create an authentication token to access Metasys. Metasys will send the intent from the web server to the GUI-Bot which will then modify the light and fan values in the launcher.    
 
 The Metasys server will send a response to the web server which can be used to determine the success or failure of a command. The web server will then send a text message response detailing the result of the actions taken previously. This may entail the changed state of a room or failure of a command to go through. The Echo Dot will process the text response and synthesize speech, thus allowing the user to hear the the result of their command.    
 
@@ -17,7 +17,8 @@ The Metasys server will send a response to the web server which can be used to d
 - [x] Received authentication for a private testing server.
 - [x] Created GUI-Bot to manually change state of the lights and fan in the Metasys server.
 - [x] Accessed the Metasys Secure System Access disk and installed.
-- [ ] With the Metasys Secure System Access disk, allow for the creation of an authentication token for Metasys access. 
+- [ ] With the Metasys Secure System Access disk, allow for the creation of an authentication token for Metasys access.
+- [ ] Improve GUI-Bot speed and functionality if possible.
 - [ ] Expand utterance list.
 
 ### Inspection Log For Code
